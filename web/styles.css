@@ -1,0 +1,51 @@
+body {
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('anh/TUF.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    
+    
+   
+    h2{
+        padding: 10px 20px;
+    background-color: #f00; /* Màu nền đỏ */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer;
+    }
+    h3{
+        position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0; /* Đảm bảo không có khoảng cách mặc định */
+    padding: 10px; /* Thêm một chút đệm cho dễ nhìn */
+    background-color: rgba(255, 255, 255, 0.7); /* Nền trắng mờ để dễ đọc */
+    }
+    h4{
+         position: absolute;
+    top: 10px; /* Cách mép trên 10px */
+    padding: 10px 20px;
+    background-color: #f00; /* Màu nền đỏ */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer;
+    }
+    p{
+        margin-bottom: 20px; /* Khoảng cách với bottom */
+    padding: 10px 20px;
+    background-color: #f00; /* Màu nền đỏ */
+    color: #fff; /* Màu chữ trắng */
+    border: none;
+    border-radius: 5px; /* Bo tròn các góc */
+    cursor: pointer;
+    }
+}
