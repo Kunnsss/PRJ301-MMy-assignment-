@@ -57,7 +57,7 @@
                     </a>
                 </li>
                 <li class="nav-item list-group-item text-white">
-                    <a href="#" class="nav-link">
+                    <a >
                         <i class="nav-icon fas fa-copy"></i>
                         <p>
                             Information
@@ -69,13 +69,13 @@
                             <a href="<%=request.getContextPath()%>/admin/semester" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Semester</p>
-                                <span class="right badge badge-success">Edit</span>
+                                
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item list-group-item text-white">
-                    <a href="#" class="nav-link">
+                    <a >
                         <i class="nav-icon fas fa-chart-pie"></i>
                         <p>
                             Course Detail
@@ -87,13 +87,13 @@
                             <a href="<%=request.getContextPath()%>/admin/course" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Course</p>
-                                <span class="right badge badge-success">Edit</span>
+                                
                             </a>
                         </li>
                     </ul>
                 </li>
                 <li class="nav-item list-group-item text-white">
-                    <a href="#" class="nav-link">
+                    <a >
                         <i class="nav-icon fas fa-tree"></i>
                         <p>
                             Major Detail
@@ -105,21 +105,21 @@
                             <a href="<%=request.getContextPath()%>/admin/major" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Major</p>
-                                <span class="right badge badge-success">Edit</span>
+                                
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<%=request.getContextPath()%>/admin/class" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Class</p>
-                                <span class="right badge badge-success">Edit</span>
+                                
                             </a>
                         </li>
                     </ul>
                 </li>
 
                 <li class="nav-item list-group-item text-white">
-                    <a href="#" class="nav-link">
+                    <a >
                         <i class="nav-icon fas fa-table"></i>
                         <p>
                             Account Information
@@ -131,14 +131,14 @@
                             <a href="<%=request.getContextPath()%>/admin/account" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Account</p>
-                                <span class="right badge badge-success">Edit</span>
+                                
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="<%=request.getContextPath()%>/admin/role" class="nav-link">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>Role</p>
-                                <span class="right badge badge-success">Edit</span>
+                                
                             </a>
                         </li>
                     </ul>

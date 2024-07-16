@@ -100,9 +100,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Role</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                    
                 </div>
                 <div class="modal-body">
                     <form action ="<%=request.getContextPath()%>/admin/role" method="post">
@@ -111,7 +109,7 @@
                             <input type="text" class="form-control-file col-sm-8" id="exampleFormControlFile1" name="roleName">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+                           
                             <button type="submit" class="btn btn-primary">Add</button>
                         </div>        
                     </form>

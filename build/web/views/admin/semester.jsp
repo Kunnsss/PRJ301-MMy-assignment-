@@ -53,7 +53,7 @@
     }
 }
             %>
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalThem">Add</button>
+           
             <table class="table table-bordered" id="datatable">
                 <thead class="thead-CCFFFF">
                     <tr class="list-header">
@@ -101,9 +101,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Add Semester</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
+                   
                 </div>
                 <div class="modal-body">
                     <form action ="<%=request.getContextPath()%>/admin/semester" method="post">
@@ -116,7 +114,7 @@
                             <input type="text" class="form-control-file col-sm-8" id="exampleFormControlFile1" name="semesterName">
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+                            
                             <button type="submit" class="btn btn-primary">Add</button>
                         </div>        
                     </form>

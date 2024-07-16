@@ -16,18 +16,15 @@
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-                 <h1 class="top-right">Wellcome Admin !!!
-                <style>
-        /* CSS để định vị thẻ h1 */
-        .top-right {
+                <h1 style="
             position: absolute;
             top: 0;
             right: 0;
             padding: 10px;
-        }
-    </style>
-                
-                </h1>
+        " class="top-right">Wellcome Admin !!!
+    <a href="auth/login">Logout</a>
+</h1>
+               
             </ol>
           </div><!-- /.col -->
         </div><!-- /.row -->

@@ -4,17 +4,13 @@
 <%@include file="/templates/admin/inc2/menu.jsp" %>
 <!-- Main Sidebar Container -->
 
-<h1 class="top-right">Wellcome Student !!!
-<style>
-        /* CSS để định vị thẻ h1 */
-        .top-right {
+<h1 style="
             position: absolute;
             top: 0;
             right: 0;
             padding: 10px;
-        }
-
-</style>
+        " class="top-right">Wellcome Student !!!
+    <a href="auth/login">Logout</a>
 </h1>
 
 <!-- Content Wrapper. Contains page content -->
@@ -55,6 +51,7 @@
         </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
+    
 </div>
 <!-- /.content-wrapper -->
 <%@include file="/templates/admin/inc2/footer.jsp" %>

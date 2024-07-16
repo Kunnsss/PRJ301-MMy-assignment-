@@ -3,8 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/ADMIN/Documents/NetBeansProjects/Assprj/src/java/loginServlet.java</file>
-            <file>file:/C:/Users/ADMIN/Documents/NetBeansProjects/Assprj/src/java/dal/DBContext.java</file>
+            <file>file:/C:/Users/ADMIN/Documents/NetBeansProjects/Assprj/PRJ301-MMy-assignment-/src/java/model/IC.java</file>
+            <file>file:/C:/Users/ADMIN/Documents/NetBeansProjects/Assprj/PRJ301-MMy-assignment-/src/java/dal/StudentDAO.java</file>
+            <file>file:/C:/Users/ADMIN/Documents/NetBeansProjects/Assprj/PRJ301-MMy-assignment-/src/java/controller/AccountServlet.java</file>
+            <file>file:/C:/Users/ADMIN/Documents/NetBeansProjects/Assprj/PRJ301-MMy-assignment-/src/java/logoutServlet.java</file>
         </group>
     </open-files>
 </project-private>

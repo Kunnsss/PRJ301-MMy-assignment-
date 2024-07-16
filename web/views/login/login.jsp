@@ -6,31 +6,11 @@
 	<title>Login</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->	
-	<link rel="icon" type="image/png" href="<%=request.getContextPath()%>/templates/admin/login/dist/images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/animate/animate.css">
-<!--===============================================================================================-->	
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/select2/select2.min.css">
-<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/css/util.css">
-	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/templates/admin/login/dist/css/main.css">
-<!--===============================================================================================-->
+
 </head>
 <body>
 	
-	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100">
-				<div class="login100-pic js-tilt" data-tilt>
-					
-				</div>
+	
 
 				<form class="login100-form validate-form" method="post" action="<%=request.getContextPath()%>/auth/login">
 					<span class="login100-form-title">
@@ -60,29 +40,11 @@
 					</div>
                                         
 				</form>
-			</div>
-		</div>
-	</div>
-	
+			
 	
 
 	
-<!--===============================================================================================-->	
-	<script src="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/bootstrap/js/popper.js"></script>
-	<script src="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="<%=request.getContextPath()%>/templates/admin/login/dist/vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="<%=request.getContextPath()%>/templates/admin/login/dist/js/main.js"></script>
+
 
 </body>
 </html>
